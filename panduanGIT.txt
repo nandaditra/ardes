@@ -1,0 +1,15 @@
+#untuk membuat sebuah repository baru di git
+
+echo "# ardes" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nandaditra/ardes.git
+git push -u origin main
+
+#untuk menambahkan file ke Github
+
+git add <nama file>  atau git add . (untuk memasukan banyak file sekaligus)
+git commit -m "first commit"  (Untuk menyerahkan file yang telah disiapkan, -m artinya isi pesan, "first commit" artinya keterangan isi pesan yang ingin disampaikan)
+git push -u origin main (Untuk mendorong atau memasukkan file-file ke github ke main, bila mau pindah ke master cukup ganti "main" menjadi "master")
