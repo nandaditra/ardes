@@ -9,3 +9,15 @@ body {
 
 }
 
+p {
+    margin-bottom: 0px;
+}
+
+.md {
+    margin:0px;
+    padding-top: 3%;
+}
+
+.in {
+    margin:0px;
+}
