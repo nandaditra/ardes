@@ -13,4 +13,4 @@ git push -u origin main
 git pull
 git add <nama file>  atau git add . (untuk memasukan banyak file sekaligus)
 git commit -m "first commit"  (Untuk menyerahkan file yang telah disiapkan, -m artinya isi pesan, "first commit" artinya keterangan isi pesan yang ingin disampaikan)
-git push -u origin main (Untuk mendorong atau memasukkan file-file ke github ke main, bila mau pindah ke master cukup ganti "main" menjadi "master")
+git push -f origin main (Untuk mendorong atau memasukkan file-file ke github ke main, bila mau pindah ke master cukup ganti "main" menjadi "master")
