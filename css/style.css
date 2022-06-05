@@ -13,6 +13,10 @@ p {
     margin-bottom: 0px;
 }
 
+h5 {
+    text-align: center;
+}
+
 .md {
     margin:0px;
     padding-top: 3%;
